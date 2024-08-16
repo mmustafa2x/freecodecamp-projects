@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+/* set font family and background gradient */
+body {
+    padding: 0;
+    border: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* Turn off margin, set by browser */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from its parent element */
+    border: none; /* Removes any borders */
+    background: none; /* Removes any background */
+    outline: none; /* Removes any outline on focus */
+  }
+  /* body {
+    background-image: url(https://assets.bonappetit.com/photos/57c5d0e36a6acdf3485dfb2b/16:9/w_2560%2Cc_limit/3717295073_f5ae257d71_o.jpg);
+  } */
+
+  body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 4rem;
+  }
+  
+  .menu {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 75%;
+    padding: 2.25rem;
+    position: absolute;
+    align-self: center;
+  }
+
+  header {
+    gap:15%;
+    width: 100%;
+    
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+  }
+
+
+.coffees {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+
+.desserts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    line-height: 125%;
+}
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.desc {
+    font-size: 0.5.rem;
+    color: rgb(49, 48, 48);
+}
+
+.menu-header {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hr {
+    fill: black;
+    width: 80%;
+}
+
+.item-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.item-price {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+footer {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(41, 41, 41);
+}
